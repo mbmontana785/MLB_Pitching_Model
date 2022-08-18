@@ -14,7 +14,7 @@ Data scraped from FanGraphs using Beautiful Soup<br>
 Imported odds data from sportsbookreviews.com and created csv in Google Sheets to read into Pandas<br>
 Engineered three of the four most strongly correlated features to the target variable (average outs recorded per start,<br>
 project run differential in game, opponent's projected runs)<br>
-Included only features with a Pearson correlation of at least .1<br>
+Included only features with a Pearson correlation of at least .1 (data wrangling yielded 54 total features)<br>
 
 **Model Evaluation:**<br>
 Tried Linear Regression, Lasso Regression, Random Forest, Gradient Boosting Regressor, Ada Boost and XGBoost<br>
